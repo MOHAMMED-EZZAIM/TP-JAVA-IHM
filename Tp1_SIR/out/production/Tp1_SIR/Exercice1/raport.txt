@@ -1,0 +1,16 @@
+Exercice1:
+1)En décommentant la ligne (1) dans votre code, vous utilisez frame.setUndecorated(true);
+, ce qui signifie que vous définissez le cadre comme étant non décoré. Cela retire 
+les décorations par défaut du cadre, telles que la barre de titre, les boutons de 
+contrôle (minimiser, agrandir, fermer), et les bords du cadre.
+
+Après avoir décommenté cette ligne, vous remarquerez probablement que la fenêtre
+ n'a plus de barre de titre, de boutons de contrôle, ni de bordures. La fenêtre 
+ apparaîtra sans aucune décoration standard du système d'exploitation, ce qui peut 
+ être utile si vous souhaitez personnaliser complètement l'apparence de votre fenêtre.
+
+Cependant, cela signifie également que vous devrez gérer manuellement certaines 
+fonctionnalités, comme le déplacement de la fenêtre (si vous souhaitez le permettre)
+ et la fermeture de la fenêtre. Dans votre exemple, la ligne suivante
+  frame.getRootPane().setWindowDecorationStyle(JRootPane.FRAME); ne sera pas
+   effective car vous avez déjà spécifié que la f
